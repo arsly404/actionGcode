@@ -1,0 +1,22 @@
+.pane {
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    margin-top: 20px;
+  }
+  .left10px {
+    padding-left: 10px;
+  }
+
+  .top10px {
+    padding-top: 10px;
+  }
+
+  .options {
+    border-bottom: 1px solid #a0a0a0;
+    padding-bottom:20px;
+    background: #a0a0a0;
+  }
+
+  .options .pane {
+    border: 1px solid #f0f0f0;
+  }

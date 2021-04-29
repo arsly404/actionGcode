@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>WebGL Gcode simulator</title>
+  <link rel="stylesheet" type="text/css" href="css/ui.css" />
+  <script type="text/javascript" src="js/three.js"></script>
+  <!-- <script type="text/javascript" src="js/gcode-simulator.js"></script> -->
+  <script type="text/javascript" src="js/machine.js"></script>
+  <script type="text/javascript" src="js/stats.js"></script>
+  <!-- <script type="text/javascript" src="js/vec2.js"></script>
+  <script type="text/javascript" src="js/SVGReader.js"></script>
+  <script type="text/javascript" src="js/svg2gcode.js"></script> -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+
+  <section class="row" >
+    <section class="span6">
+      <section class="span5 pane left10px top10px" id="editor">
+        <h2>gcode</h2>
+        <textarea id="gcode" class="span5" rows="11"></textarea>
+      </section>
+    </section>
+    <section class="span6 pane" id="3d" ></section>
+  </section>
+
+
+  <script type="text/javascript" src="js/renderer.js"></script>
+  <script type="text/javascript" src="js/action.js"></script>
+</body>
+</html>
