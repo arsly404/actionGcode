@@ -1,1 +1,1 @@
-Copy paste appleGcode.gcode and click "F12" in Chrome
+Copy paste appleCode.gcode and click "F12" in Chrome !
